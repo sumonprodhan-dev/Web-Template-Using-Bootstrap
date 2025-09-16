@@ -1,0 +1,61 @@
+
+.mt-6{
+    margin-top: 6rem;
+}
+.fs-7{
+    font-size: 14px;
+}
+.nav-hover:hover a{
+    background-color: blue;
+    border-radius: 15px;
+    color: #fff !important;
+}
+
+.before-quate::before{
+    content: "“";
+}
+.after-quate::after{
+    content: "”";
+}
+
+.highlight-green {
+  color: #00c896;
+  font-weight: bold;
+}
+
+.highlight-red {
+  color: #ff2e63;
+  font-weight: bold;
+}
+
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.card{
+    overflow: hidden !important;
+}
+
+.hover-img:hover{
+    scale: 1.1;
+    transition: all 0.3s ease;
+}
+
+
+.hover-shadow:hover {
+  box-shadow: 0 0 20px rgba(97, 172, 252, 0.401) !important;
+  transition: all 0.3s ease; 
+}
+
+
+
+
+
+
+.icon img{
+    width: 80px;
+    height: auto;
+}
